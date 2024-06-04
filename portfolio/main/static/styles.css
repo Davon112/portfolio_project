@@ -1,0 +1,82 @@
+body{
+    background-color: #303030;
+   
+
+}
+
+header{
+    background-image: url(./images/AdobeStock_Davon.png);
+    font-weight: lighter;
+    font-size: 49px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+    height: 200px;
+    width: 1800px;
+
+    
+    
+    
+    
+    
+}
+
+/* .blend{
+    background-image: linear-gradient(0deg,    #B2B1B0, #BCBDBF );
+    padding: 9px;
+} */
+
+main{
+    margin-top: 0px;
+    background-image: url(./images/davon-9.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1270px;
+    
+}
+
+nav{
+    float: right;
+    display: inline;
+    align-items: flex;
+    height: 400px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+    
+
+}
+
+
+
+
+nav ul li{
+    list-style: none;
+    
+    align-items: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding: 19px;
+    
+    
+    
+    
+    
+}
+nav ul a {
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #ADB5BD ;
+}
+
+
+
+
+
+footer{
+    padding: 30px;
+}

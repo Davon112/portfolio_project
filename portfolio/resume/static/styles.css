@@ -1,0 +1,202 @@
+body{
+    background-image: url(./AdobeStock_638364473.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+
+nav{
+    color: white;
+    text-shadow: #C2A792 1px 2px;
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 200px;
+    height: 90px;
+    width: 1740px;
+    /* border: white solid; */
+}
+
+nav li{
+    display: inline;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: 130px;
+    
+}
+
+nav ul a{
+    background-color: black;
+    padding: 2px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    opacity: .75;
+}
+
+nav ul a:hover{
+    color: #1f1f1f;
+    background-color: white;
+}
+
+main{margin-top: 200px;
+    margin-left: 558px;
+    margin-right: 659px;
+    /* border: orange solid; */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+h6{
+    color: #394215;
+    text-shadow: #B7A9A0 -2px 3px ;
+}
+
+.education{
+    margin-left: 0px;
+    height: 40px;
+    width: 567px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./education.png);
+    background-size: contain;
+    padding: 0px;
+    
+    opacity: .75;
+
+}
+
+.education ul{
+    display:flex;
+    
+}
+
+.education:hover{
+    font-size: 0;
+
+}
+
+.education:hover:after{
+    content: attr(data-hover);
+    font-size: 30px;
+    padding: 30px;
+    line-height: 28px;
+    font-weight: 200;
+    display: flex;
+    text-align: center;
+    background-color: #C2A792;
+}
+
+.work_exp{
+    margin-top: 50px;
+    width: 567px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./education.png);
+    background-size: contain;
+    padding: 0px;
+    
+    opacity: .75;
+}
+
+.work_exp:hover{
+    font-size: 0;
+
+}
+
+.work_exp:hover:after{
+    content: attr(data-hover);
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: center;
+    background-color: #C2A792;
+    padding: 30px;
+}
+.skills_certs_ach{
+    margin-top: 50px;
+    width: 567px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./education.png);
+    background-size: contain;
+    padding: 0px;
+    
+    opacity: .75;
+}
+
+.skills_certs_ach:hover{
+    font-size: 0;
+
+}
+
+.skills_certs_ach:hover:after{
+    content: attr(data-hover);
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: center;
+    background-color: #C2A792;
+    padding: 30px;
+}
+
+.lfs{
+    margin-top: 100px;
+    width: 567px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./education.png);
+    background-size: contain;
+    padding: 0px;
+    
+    opacity: .75;
+}
+
+.lfs:hover{
+    font-size: 0;
+
+}
+
+.lfs:hover:after{
+    content: attr(data-hover);
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: center;
+    background-color: #C2A792;
+    padding: 30px;
+}
+
+
+
+footer{
+margin-top: 0;
+}
